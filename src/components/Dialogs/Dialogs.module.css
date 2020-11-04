@@ -7,13 +7,38 @@
   padding: 10px;
 }
 
-.dialogsItems .active {
+.messages {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+
+.messages .message,
+.dialog {
+  display: flex;
+  align-items: center;
+}
+
+.avatarImg img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.dialog a.activeLink {
   color: gold;
 }
 
-.messages {
-  padding: 10px;
+.addMessage {
+  margin-left: 110%;
+  margin-bottom: 20px;
 }
 
-.messages .message {
+.addMessage button {
+  white-space: nowrap;
+}
+
+.dialog.active {
+  color: gold;
 }
