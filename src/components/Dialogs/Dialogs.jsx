@@ -38,6 +38,7 @@ const Dialogs = props => {
           onChange={onMessageChange}
           value={props.state.newMessageText}
           ref={newMessageElement}
+          placeholder="Enter your message"
         />
         <button onClick={addMessage}>Add message</button>
       </div>
