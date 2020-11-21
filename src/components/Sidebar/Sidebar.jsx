@@ -1,10 +1,9 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import FriendItem from './FriendItem/FriendItem';
 import s from './Sidebar.module.css';
 
 const Sidebar = props => {
-  let sidebarElements = props.state.friends.map(friend => (
+  let sidebarElements = props.sidebar.friends.map(friend => (
     <FriendItem friend={friend} />
   ));
 
