@@ -42,13 +42,13 @@ export const dialogsReducer = (state = initialState, action) => {
         message: state.newMessageText,
         img: 'https://pixy.org/src/31/310856.png'
       };
-      state.messagesData.push(newMessage);
-      state.newMessageText = '';
-      return state;
+      return {
+        ...state,
+        messagesData: [...state.messagesData, newMessage],
+        newMessageText: ''
+      };
     case UPDATE_NEW_MESSAGE_TEXT:
-      state.newMessageText = action.newText;
-      return state;
-
+      return { ...state, newMessageText: action.newText };
     default:
       return state;
   }
