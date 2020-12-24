@@ -1,3 +1,7 @@
 .descriptionBlock {
   padding: 10px;
 }
+
+.profileInfoProperties {
+  text-decoration: underline;
+}
