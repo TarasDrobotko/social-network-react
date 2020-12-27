@@ -1,5 +1,15 @@
+.profileInfo {
+  margin-left: 10px;
+}
+
+.userPhoto {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+}
+
 .descriptionBlock {
-  padding: 10px;
+  color: rgb(5, 5, 80);
 }
 
 .profileInfoProperties {
