@@ -12,10 +12,19 @@ export const usersAPI = {
       .get(`users?page=${currentPage}&count=${pageSize}`)
       .then(response => response.data);
   },
-  getUsersFollow(id = 1) {
-    return instance.post(`follow/${id}`).then(response => response.data);
+  getUsersFollow(userIid) {
+    return instance.post(`follow/${userIid}`).then(response => response.data);
   },
-  getUsersUnfollow(id = 1) {
-    return instance.delete(`follow/${id}`).then(response => response.data);
+  getUsersUnfollow(userIid) {
+    return instance.delete(`follow/${userIid}`).then(response => response.data);
+  },
+  getProfile(userId) {
+    return instance.get(`profile/` + userId);
+  }
+};
+
+export const authAPI = {
+  getAuthMe() {
+    return instance.get(`auth/me`).then(response => response.data);
   }
 };
