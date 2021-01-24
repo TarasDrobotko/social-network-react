@@ -4,7 +4,7 @@ import Preloader from '../../common/Preloader/Preloader';
 import userPhoto from '../../../assets/images/user.png';
 import ProfileStatus from './ProfileStatus';
 
-const ProfileInfo = props => {
+const ProfileInfo = (props) => {
   if (!props.profile) {
     return <Preloader />;
   }
@@ -20,7 +20,10 @@ const ProfileInfo = props => {
             props.profile.photos.large ? props.profile.photos.large : userPhoto
           }
         />
-        <ProfileStatus status={'Hello my friends'} />
+        <ProfileStatus
+          status={props.status}
+          updateStatus={props.updateStatus}
+        />
         <div>
           <strong>
             <span className={s.profileInfoProperties}>Full name:</span>
