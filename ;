@@ -1,0 +1,673 @@
+[33mcommit 7049e996adab8178ed2a4a43a2d243c16ffe7615[m[33m ([m[1;36mHEAD -> [m[1;32msocial-network-test[m[33m, [m[1;31morigin/social-network-test[m[33m)[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Thu Jan 28 14:51:13 2021 +0200
+
+    componentDidUpdate
+
+[33mcommit ea15d0986fa15505e87c7dc1129c2f0c00dc986c[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Sun Jan 24 22:44:11 2021 +0200
+
+    update status
+
+[33mcommit 45236120b7491d7c1e7acd1572617f59d6feee3a[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Fri Jan 22 19:19:29 2021 +0200
+
+    upgrade packages for the app
+
+[33mcommit 8e1b6c9dda180a3da04f6a1832f68998a4283a5f[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Wed Jan 20 16:14:34 2021 +0200
+
+    compose
+
+[33mcommit 54de4276024bfae89ff92762bcaf07acfa1da181[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Mon Jan 11 00:12:00 2021 +0200
+
+    compose
+
+[33mcommit 7a7ce6874c1882b10913631f0899bbfb096a8e24[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Sun Jan 10 23:04:55 2021 +0200
+
+    hoc
+
+[33mcommit 16327486e5070049f59d865ba8fe385b76e17adf[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Fri Jan 8 23:48:51 2021 +0200
+
+    redux-thunk
+
+[33mcommit ad8ee203a3f0699c6d3b95d2bdb1d36f789b55e8[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Mon Jan 4 00:10:53 2021 +0200
+
+    button disabled
+
+[33mcommit 71eceb83205de22f7dfd6616e9f0e71a2466cea0[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Sat Jan 2 23:13:58 2021 +0200
+
+    add axios.create
+
+[33mcommit 2c94f2596e04e7ca0748ce4d9ef60014cabbab69[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Sat Jan 2 15:24:41 2021 +0200
+
+    auth, follow-unfollow api
+
+[33mcommit ed06188b39f1ed16b3639164de436d7232b23f62[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Sun Dec 27 22:30:21 2020 +0200
+
+    add withRouter
+
+[33mcommit df82903265396917a735f76c8b6bf61d751f32d4[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Thu Dec 24 20:08:17 2020 +0200
+
+    Get profile of the user
+
+[33mcommit 20ac28e7b835b9ca548672560c571962b3eb460a[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Mon Dec 21 17:33:43 2020 +0200
+
+    mapDispatchToProps life hack
+
+[33mcommit 607af18164ff60eff7d540f09c9af2a579816434[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Mon Dec 21 13:54:26 2020 +0200
+
+    Preloader example
+
+[33mcommit a0ecf80eabc55cf3b07656d41cbe62927dacbad5[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Thu Dec 3 15:15:34 2020 +0200
+
+    Users API
+
+[33mcommit ad65566ace3c05164ce50c28f6959bc53dc88fa6[m
+Author: TarasDrobotko <drobotkot@gmail.com>
+Date:   Mon Nov 30 21:26:24 2020 +0200
+
+    add user page
+
+[33mcommit f90cd41783b0990a112c01ec2da4e3a6e7ddab04[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Mon Nov 23 20:12:41 2020 +0200
+
+    add state copy
+
+[33mcommit 666c180e2e65cfa43bfe1e815a5cc95e91758ca4[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Sat Nov 21 17:17:39 2020 +0200
+
+    add context API
+
+[33mcommit c7f5eee539d9366d367fcc8c73fc2169707b46d5[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Thu Nov 19 23:25:54 2020 +0200
+
+    add container component
+
+[33mcommit 24857771d87929f7619ae558e367c7495b0d8ff1[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Thu Nov 19 10:33:09 2020 +0200
+
+    add reducer
+
+[33mcommit 8be13500895eb44eb6bc2e171fac918ffa07caee[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Thu Nov 12 13:12:38 2020 +0200
+
+    add placeholder to message textarea
+
+[33mcommit c5c7279da15c1ebbe47c7073405e9a4d2ac96cb1[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Mon Nov 9 10:38:19 2020 +0200
+
+    fix dispatch. Add action creator, const for action type
+
+[33mcommit 851b215a599fac82f15dfa0637a10d15445ec31f[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Sun Nov 8 19:14:37 2020 +0200
+
+    add dispatch method
+
+[33mcommit 63fd1b3f5ff8a4a4143f3822781f55df8752faaa[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Fri Nov 6 20:15:28 2020 +0200
+
+    add store object and bind
+
+[33mcommit 131f833153306ec77ddb0cae4320c35c818b107e[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Thu Nov 5 20:47:32 2020 +0200
+
+    transfer rerenderEntireTree function
+
+[33mcommit 9ec3ec2b655cbc1baccbdb27bf1b7b0b9cac6917[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Wed Nov 4 21:08:20 2020 +0200
+
+    Add FLUX with textarea. Throw the callback through props.
+
+[33mcommit 84b11e46d1fc60bc90ae072689752f6ae4bb2d3b[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Sun Nov 1 13:07:52 2020 +0200
+
+    test commit
+
+[33mcommit 4fbd741b753fc3f6b6ac6f8a236e27799ac06a46[m
+Merge: b880550 1b9244b
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Sun Nov 1 11:10:22 2020 +0200
+
+    fix merge conflicts
+
+[33mcommit b8805506d7a9f98fd42df22020c38fd45ef34dc4[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Sun Nov 1 10:57:05 2020 +0200
+
+    clean master
+
+[33mcommit 1b9244bf48aa98a9c30dcb91c68f6cb1c9acb7b9[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Sun Nov 1 00:09:51 2020 +0200
+
+    Data packing to state 2
+
+[33mcommit 20d95dad6ce51a5ddbab73691e447a7197bc1d7e[m
+Author: tarasdrobotko <drobotkot@gmail.com>
+Date:   Sat Oct 31 23:30:52 2020 +0200
+
+    first commit. Data packing to state
+
+[33mcommit e0de8f53ab77e7260279649f3c76fec1ae5ab4bd[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Fri Aug 7 15:37:13 2020 +0300
+
+    2.0 - 13 - useSelect & useDispatch
+
+[33mcommit 181e8e335737f489be88b61eea5c742b0f7f2e11[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Thu Jul 16 23:15:28 2020 +0300
+
+    2.0 - 12 - Formik
+
+[33mcommit e15db05c61e8b390e36e36e7f516e434ef495ee7[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Fri Jul 3 21:51:44 2020 +0300
+
+    2.0 - 11 - jest, thunk, unit test
+
+[33mcommit 1c05555ba6302ce6c2d163ccd6fa3874a33d1c7d[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Fri Jul 3 17:35:39 2020 +0300
+
+    2.0 - update CRA project
+
+[33mcommit a36ee4f6141453f49f03f948f026a35903a27dca[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Thu May 14 18:40:13 2020 +0300
+
+    2.0 - 10 - TypeScript for ALL
+
+[33mcommit 8b415ee1406fb70497f80c30b466380367f523c6[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Wed Apr 15 21:29:19 2020 +0300
+
+    2.0 - 09 - infer For Actions
+
+[33mcommit 094fec36bf326003b4b7c302f36be93b09f5fa5c[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Sun Mar 15 17:45:08 2020 +0300
+
+    2.0 - 08 - Added TypeScript to Redux-Form
+
+[33mcommit 1b3aa75e0e8fde9a2f6a50e1ead971ac92729d05[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Wed Feb 26 18:30:39 2020 +0300
+
+    2.0 - 07 - Added TypeScript to Project; added types API
+
+[33mcommit 8087ac4ad15af12352ddd2a66536a0a5ed84dafe[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Wed Feb 26 17:44:33 2020 +0300
+
+    2.0 - 06 - Added TypeScript to Project; added types for actions and thunks
+
+[33mcommit 35046547541c1ebc65dbc5cbbe03fcd3b5f66fe0[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Fri Feb 21 12:46:56 2020 +0300
+
+    2.0 - 05 - Added TypeScript to Project; migrated components to TS; connect to TS
+
+[33mcommit f696649107771af685863b26555ed53025599128[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Tue Feb 11 17:18:55 2020 +0300
+
+    2.0 - 04 - Added TypeScript to Project;migrated reducers to TS
+
+[33mcommit 2cedb1d1f42189f5330236a64d6deeb5e76b0833[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Tue Sep 24 14:33:22 2019 +0300
+
+    99 - about everything
+
+[33mcommit 29f976ada8af3e15b4fffbd3e69296fd578feed8[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Thu Sep 19 16:09:26 2019 +0300
+
+    98 - captcha for Login page
+
+[33mcommit ba3f74616ba5d26073a771cbe60fceebf4eb9ffa[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Sun Sep 15 01:53:23 2019 +0300
+
+    97 - updateProfile, redux-form initialValues
+
+[33mcommit 361df62fb09fbabd52ca0fa63d38ba2da37d150b[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Sun Sep 15 00:27:58 2019 +0300
+
+    96 - upload photo; profile: componentDidUpdate
+
+[33mcommit c4673718e631f693be88c8c629f515115d8c85e3[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Tue Sep 10 02:46:59 2019 +0300
+
+    95 - github pages
+
+[33mcommit 023c00c0b840281819c2896171d8993f56ea15ce[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Tue Sep 10 01:11:02 2019 +0300
+
+    94 - React.lazy, React.Suspense
+
+[33mcommit 4613f34fccf040efbee11b2a0a5f9effab35038a[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Fri Sep 6 16:28:03 2019 +0300
+
+    93 - paginator, tdd
+
+[33mcommit 55550660de86da62e0c3a5424dae1dfcd3d9a6ab[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Wed Sep 4 01:07:03 2019 +0300
+
+    92 - react-test-renderer
+
+[33mcommit 0b7d1de4c551edb7cdfce8386786c2824714efd6[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Tue Sep 3 22:00:33 2019 +0300
+
+    91 - chrome-extensions
+
+[33mcommit d6297bc1866d18c5fc17bc2795fd511389feef46[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Mon Sep 2 17:14:34 2019 +0300
+
+    90 - redux-ducks + refactoring
+
+[33mcommit c15355c9b9752fa07cc4cd950505c393fb3acf47[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Mon Sep 2 14:39:45 2019 +0300
+
+    BrowserRouter fix
+
+[33mcommit b62f0bcb17d2680f02fc4ed6fd1c5745fc6f80d1[m
+Merge: cff8955 a571aa2
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Mon Aug 26 22:41:51 2019 +0300
+
+    Merge branch 'master' of github.com:it-kamasutra/react-way-of-samurai
+
+[33mcommit cff89559273f63f9b81a212614861a18904bcde7[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Mon Aug 26 21:27:10 2019 +0300
+
+    88 - profile reducer testing
+
+[33mcommit a571aa277bfa9f06a79753e80dbe75678bed81e1[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Mon Aug 26 21:27:10 2019 +0300
+
+    88 - profile reducer testing
+
+[33mcommit e3e87a691d52dafff0f17598f15cd118dd69bae1[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Sat Aug 24 15:02:04 2019 +0300
+
+    87 - shouldComponentUpdate, memo, PureComponent
+
+[33mcommit 61c242714bc4a7648376dbe6f399db7f92886ec1[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Sat Aug 17 22:59:40 2019 +0300
+
+    85 - hooks: useEffect
+
+[33mcommit 4d058a307ef05f1f33c34310ba00c0d4804e20d3[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Sat Aug 17 22:24:53 2019 +0300
+
+    84 - hooks: useState
+
+[33mcommit 55b7da3059936a7c39559903d0b64fe077192e1b[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Tue Aug 13 15:53:17 2019 +0300
+
+    83 - reselect
+
+[33mcommit aa6949c66820aba802204fac3e034bfd4f1eb032[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Tue Aug 13 15:30:57 2019 +0300
+
+    82 - mapStateToProps + selectors troubles
+
+[33mcommit 45a4a78454b57422d4e89a6e0a75a6458d986434[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Sat Aug 10 15:13:00 2019 +0300
+
+    81 - selectors, part 1
+
+[33mcommit d93dca3cd3cc25f084b7a49e0282507fe5e9d01a[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Sat Aug 3 01:09:25 2019 +0300
+
+    80 - app initializing
+
+[33mcommit 5a081c2a5ad89a66d3c4fbeaa1aec93427229383[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Fri Aug 2 01:55:14 2019 +0300
+
+    79 - redux-form, stopSubmit
+
+[33mcommit 0450da7c2d8e2f4bdbc750bde64c3f5cb2080d68[m
+Author: Dimych <kuzyuberdin@gmail.com>
+Date:   Fri Jul 26 13:20:02 2019 +0300
+
+    78 - login flow
+
+[33mcommit b52edc746ffb4f16ce6eaedf31f5980144d560e3[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Sat Jul 20 16:20:10 2019 +0300
+
+    77: redux-form field validation
+
+[33mcommit 516183e841369f3ee5985357c39e7f3bf5a27e79[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Sat Jul 20 14:56:04 2019 +0300
+
+    76: redux-form, introduction 2
+
+[33mcommit 47ed98b4b90992cd9a028e6497871ebdfc9fc714[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Thu Jul 11 12:43:31 2019 +0300
+
+    75: redux-form, introduction
+
+[33mcommit 7a02d2fece7a0a990d03b1ba369949a2a720c02d[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Sat Jul 6 01:02:49 2019 +0300
+
+    74: componentDidUpdate
+
+[33mcommit b6a02f119bcd70d9e3e90afae7b01c2747042e05[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Sat Jul 6 00:34:33 2019 +0300
+
+    73: update status API
+
+[33mcommit 68b29874e16a2f9daf9898b29e58d3a9cf22a37d[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Jul 1 14:11:27 2019 +0300
+
+    72: update packages, CRA
+
+[33mcommit d31d6293ef6158774d2784b26e5e9b6eb51b3dea[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Sat Jun 22 14:16:57 2019 +0300
+
+    71: status: setState
+
+[33mcommit 7865618320e3a1dc371422ba2bb33aa49b693ccb[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Sat Jun 15 21:02:56 2019 +0300
+
+    70: Compose
+
+[33mcommit cc66fce7ccc487bd2c9b71912c60a37e8d58ed9c[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Sat Jun 15 20:43:43 2019 +0300
+
+    69: HOC
+
+[33mcommit 35289506055b50b2580089e460bfa389f01b77bc[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Thu Jun 13 16:25:39 2019 +0300
+
+    68: redirect
+
+[33mcommit e84ff018b5ec60e52dd7399386594de7e9467e9d[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Wed Jun 5 13:15:46 2019 +0300
+
+    67: thunk for auth and profile
+
+[33mcommit 7dd0586eb5c54340bc77a8ba76174aeba6b2a431[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Tue Jun 4 00:42:15 2019 +0300
+
+    65: thunk, users page
+
+[33mcommit f4169940078bf542c4826723216266b34473b5dd[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Jun 3 21:05:44 2019 +0300
+
+    64: disabled button
+
+[33mcommit 5d808ade6a11464a3b14e989f1c391f2ed949235[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Wed May 29 18:17:35 2019 +0300
+
+    61: auth/me fix
+
+[33mcommit 699242bb0206b67a9680201e0ee9aaa11e946c3a[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Wed May 29 13:42:03 2019 +0300
+
+    61: auth/me
+
+[33mcommit c8794586cf88d02156230d8e7872ace66ad3797a[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Wed May 22 00:26:40 2019 +0300
+
+    59 - withRouter
+
+[33mcommit 21121d1a07a2c50a6a29730f538487d87199b938[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Fri May 17 16:56:11 2019 +0300
+
+    58: axios, profile, ajax, router
+
+[33mcommit 6294b804961f1881f1b6495782a9d6be5230ea1c[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Thu May 16 16:38:00 2019 +0300
+
+    57-58: preloader + mapDispatchToProps
+
+[33mcommit 728d14f96a857420f94d536ce2d22499b86476d4[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Tue May 14 15:11:59 2019 +0300
+
+    56: Users: Presentational and Container
+
+[33mcommit efe39205b7c1995f8d8bab234f656a2b3791c920[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Sat May 11 02:17:53 2019 +0300
+
+    55: pagination for users page
+
+[33mcommit 50e29f177067d1d17e36102a9267c5528d79ffcd[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Wed May 8 00:28:24 2019 +0300
+
+    54: componentDidMount
+
+[33mcommit 5ebf2fc566b730137dbdcb89694475666b5a62a5[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon May 6 18:34:10 2019 +0300
+
+    50-52: get user api
+
+[33mcommit 54728c81095a23f57f433e473c27f7d8163cc94e[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Wed Apr 17 14:59:35 2019 +0300
+
+    49 - users page reducer and components
+
+[33mcommit bd3d0206ef18708acab4ba0a67a08fa4f4f90c04[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Wed Apr 10 13:24:58 2019 +0300
+
+    48: full copy for dialogs-reducer
+
+[33mcommit 5eb9a7ad1da278f3d73a704a9eca97f6b2d3b556[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Wed Apr 10 12:23:09 2019 +0300
+
+    46-47: full copy for ProfileReducer
+
+[33mcommit c7a3203439c49ec2d2af29cb5e4155b6e2b8ad85[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Tue Mar 19 00:42:00 2019 +0300
+
+    44 - Context API
+
+[33mcommit 3820cf33e69f8160f79acb71fc2b1a6e89b0e684[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Mar 18 22:41:28 2019 +0300
+
+    43 - container component
+
+[33mcommit 88157eb8f266568c39fe8dba63122cf19dbaf541[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Fri Mar 8 01:39:25 2019 +0300
+
+    42 - redux
+
+[33mcommit b729b14cc2c27a432fe8c62aba71eaa8f1f203ac[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Wed Mar 6 19:35:39 2019 +0300
+
+    41 - reducers
+
+[33mcommit af0b698e3e9c24566fa2a7b0e461576e3d72ed51[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Feb 25 12:48:31 2019 +0300
+
+    40 - add message from dialogs page
+
+[33mcommit b5d1d20a5a0e76b1d0394df515f6c0c74b5c689b[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Thu Feb 21 15:08:00 2019 +0300
+
+    39 - action creator, action type to constant
+
+[33mcommit 0ba747b6e6f076fd672f770a2d7f039a3d25a3e7[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Thu Feb 21 13:06:46 2019 +0300
+
+    38 - dispatch, action
+
+[33mcommit 979f7a25f89897283f2c2c88657c0b0d309ae007[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Feb 11 14:24:46 2019 +0300
+
+    37 - create store (oop)
+
+[33mcommit c5190ff40b3c563c0cdf69668ba6a65bece78f32[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Tue Feb 5 15:49:42 2019 +0300
+
+    35 - render import export refactoring
+
+[33mcommit 7ee24749f2310c7ad181f586a836b1393a122849[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Sat Feb 2 22:35:54 2019 +0300
+
+    34 - textarea value should depend on props
+
+[33mcommit 4df68c920150a24be0d701ee8cea61ed2bc06dfa[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Thu Jan 24 15:19:37 2019 +0300
+
+    33 - addPost, rerenderEntirePage, render.js
+
+[33mcommit 81d25034a7726076bc4508fff85e8177955b146b[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Tue Jan 22 13:00:28 2019 +0300
+
+    29 - move data to state.js
+
+[33mcommit 549e26279f7f7457675b8b2e5c9cb099761ee4c6[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Jan 14 23:18:06 2019 +0300
+
+    26: dialogs structure refactoring; UI-BLL
+
+[33mcommit 36f692b74b414c88f351c88e40bcb5749d4980eb[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Jan 14 21:55:02 2019 +0300
+
+    25: map
+
+[33mcommit 402dc831db00a62dd809a348ca015c8ff2694477[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Sat Dec 29 01:43:17 2018 +0300
+
+    Season 2 - 01-07: finish code from 07 lesson
+
+[33mcommit bbaa0b05f9adc17d6a5cf3d31ee38eb4727f8aaa[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Dec 10 19:07:35 2018 +0300
+
+    17: likes count in props; removed trash components;
+
+[33mcommit 6749b40fc04dc2c9a4073c31f7451090456a1c2c[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Dec 10 17:58:53 2018 +0300
+
+    16: props to Post
+
+[33mcommit f21190a4dc336e2ea1ed6a6603b6ad213a8ea120[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Dec 10 17:10:43 2018 +0300
+
+    15: posts, post component; folder structure
+
+[33mcommit 3317d5866d1035097b3fd4a983f5f38c16fd676c[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Dec 10 15:39:04 2018 +0300
+
+    14: css-модули
+
+[33mcommit 1f9623bc656e2b0bf8d393b93359a854d31ca5e3[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Dec 10 13:57:30 2018 +0300
+
+    12: profile, header, navbar
+
+[33mcommit d4195efa527e045ad2c34a07d6d93a6d38a18e9d[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Dec 10 13:55:22 2018 +0300
+
+    09: import-export;
+
+[33mcommit 58557edea8720b2bb6044a48a6987d6d95b66c49[m
+Author: kuzyuberdin <kuzyuberdin@gmail.com>
+Date:   Mon Dec 10 13:45:58 2018 +0300
+
+    07: what component is
