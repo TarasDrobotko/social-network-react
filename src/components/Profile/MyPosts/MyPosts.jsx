@@ -1,40 +1,46 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import s from './MyPosts.module.css';
 import Post from './Post/Post';
 
-const MyPosts = props => {
-  let postsElements = props.posts.map(p => (
-    <Post message={p.message} likesCount={p.likesCount} />
-  ));
+class MyPosts extends PureComponent {
+  // shouldComponentUpdate(nextProps, nextState) {
+  //   return nextProps != this.props || nextState != this.state;
+  // }
 
-  let newPostElement = React.createRef();
+  render() {
+    let postsElements = this.props.posts.map((p) => (
+      <Post message={p.message} likesCount={p.likesCount} />
+    ));
 
-  let onAddPost = () => {
-    props.addPost();
-  };
+    let newPostElement = React.createRef();
 
-  let onPostChange = () => {
-    let text = newPostElement.current.value;
-    props.updateNewPostText(text);
-  };
+    let onAddPost = () => {
+      this.props.addPost();
+    };
 
-  return (
-    <div className={s.postsBlock}>
-      <h3>My posts</h3>
-      <div>
+    let onPostChange = () => {
+      let text = newPostElement.current.value;
+      this.props.updateNewPostText(text);
+    };
+
+    return (
+      <div className={s.postsBlock}>
+        <h3>My posts</h3>
         <div>
-          <textarea
-            onChange={onPostChange}
-            ref={newPostElement}
-            value={props.newPostText}
-          />
+          <div>
+            <textarea
+              onChange={onPostChange}
+              ref={newPostElement}
+              value={this.props.newPostText}
+            />
+          </div>
+          <button onClick={onAddPost}>Add post</button>
+          <button>Remove</button>
         </div>
-        <button onClick={onAddPost}>Add post</button>
-        <button>Remove</button>
+        <div className={s.posts}>{postsElements}</div>
       </div>
-      <div className={s.posts}>{postsElements}</div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default MyPosts;
