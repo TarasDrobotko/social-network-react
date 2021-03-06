@@ -28,13 +28,13 @@ export const setAuthUserData = (userId, email, login) => ({
 });
 
 export const authMe = () => {
-  return dispatch => {
-    authAPI.getAuthMe().then(data => {
-      if (data.resultCode === 0) {
-        let { id, login, email } = data.data;
-        dispatch(setAuthUserData(id, email, login));
-      }
-    });
+  return async (dispatch) => {
+    let response = await authAPI.getAuthMe();
+
+    if (response.resultCode === 0) {
+      let { id, login, email } = response.data;
+      dispatch(setAuthUserData(id, email, login));
+    }
   };
 };
 
